@@ -1,0 +1,26 @@
+.All{
+    background-color: #1ABC9C;
+    color: white;
+}
+.all{
+height: 100vh;
+
+}
+.stars i::after{
+    content: '';
+    width: 30% ;
+    height: 6px;
+    background-color: white;
+    position: absolute;
+    top: 150% ;
+    right: 50%;
+}
+.stars i::before{
+    content: '';
+    width: 30% ;
+    height: 6px;
+    background-color: white;
+    position: absolute;
+    top: 200% ;
+    left: 50%;
+}
